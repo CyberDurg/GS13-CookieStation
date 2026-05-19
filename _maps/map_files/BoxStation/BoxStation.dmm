@@ -5896,8 +5896,11 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/obj/structure/table/wood,
-/obj/item/storage/cans/sixsoda,
+/obj/item/reagent_containers/cup/glass/drinkingglass/filled/starshine{
+	pixel_x = -6;
+	pixel_y = 11
+	},
+/obj/structure/table/glass/plasmaglass,
 /turf/open/floor/iron/dark,
 /area/station/commons/fitness/recreation/entertainment)
 "aBC" = (
@@ -36930,7 +36933,7 @@
 	},
 /obj/item/toy/toy_dagger{
 	desc = "A skeletal limb wrapped in pseudomuscles, with a low-conductivity case. Display only.";
-	icon = 'modular_skyrat/master_files/icons/mob/augmentation/mcgipc.dmi';
+	icon = 'modular_zubbers/icons/mob/augmentation/mcgipc.dmi';
 	icon_state = "robotic_l_leg";
 	name = "salvaged prosthesis";
 	pixel_x = -10;
@@ -36941,7 +36944,7 @@
 	},
 /obj/item/toy/toy_dagger{
 	desc = "A skeletal limb wrapped in pseudomuscles, with a low-conductivity case. Display only.";
-	icon = 'modular_skyrat/master_files/icons/mob/augmentation/mcgipc.dmi';
+	icon = 'modular_zubbers/icons/mob/augmentation/mcgipc.dmi';
 	icon_state = "robotic_l_arm";
 	name = "salvaged prosthesis";
 	pixel_x = -6;
@@ -36952,7 +36955,7 @@
 	},
 /obj/item/toy/toy_dagger{
 	desc = "A skeletal limb wrapped in pseudomuscles, with a low-conductivity case. Display only.";
-	icon = 'modular_skyrat/master_files/icons/mob/augmentation/mcgipc.dmi';
+	icon = 'modular_zubbers/icons/mob/augmentation/mcgipc.dmi';
 	icon_state = "robotic_chest";
 	name = "salvaged prosthesis";
 	pixel_x = 11;
@@ -47256,10 +47259,10 @@
 "huR" = (
 /obj/machinery/light/directional/west,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/vending/cola/red,
 /obj/effect/turf_decal/tile/neutral/opposingcorners{
 	dir = 1
 	},
+/obj/machinery/vending/starshine,
 /turf/open/floor/iron/dark,
 /area/station/commons/fitness/recreation/entertainment)
 "hvD" = (
@@ -47338,11 +47341,11 @@
 	pixel_x = 6;
 	pixel_y = 3
 	},
-/obj/item/computer_disk/ordnance{
+/obj/item/disk/computer/ordnance{
 	pixel_x = -3;
 	pixel_y = -3
 	},
-/obj/item/computer_disk/ordnance,
+/obj/item/disk/computer/ordnance,
 /turf/open/floor/iron/cafeteria,
 /area/station/command/heads_quarters/rd)
 "hxc" = (
@@ -51756,7 +51759,7 @@
 /area/station/solars/starboard/aft)
 "jra" = (
 /obj/effect/turf_decal/bot,
-/obj/item/bitrunning_disk{
+/obj/item/disk/bitrunning{
 	pixel_x = 9;
 	name = "generic disk"
 	},
@@ -55479,7 +55482,7 @@
 	dir = 6
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/item/computer_disk/maintenance/arcade{
+/obj/item/disk/computer/maintenance/arcade{
 	pixel_x = -10;
 	pixel_y = 5
 	},
@@ -64125,7 +64128,7 @@
 	dir = 1;
 	pixel_x = -4
 	},
-/obj/item/infuser_book{
+/obj/item/tgui_book/manual/infuser{
 	pixel_y = -1;
 	pixel_x = 9
 	},
@@ -68390,11 +68393,11 @@
 /obj/structure/table,
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/north,
-/obj/item/computer_disk{
+/obj/item/disk/computer{
 	pixel_x = -5;
 	pixel_y = 8
 	},
-/obj/item/computer_disk/ordnance{
+/obj/item/disk/computer/ordnance{
 	pixel_x = 7;
 	pixel_y = 8
 	},
@@ -74098,7 +74101,7 @@
 	},
 /obj/structure/table,
 /obj/machinery/light/small/blacklight/directional/north,
-/obj/item/bitrunning_disk/prefs{
+/obj/item/disk/bitrunning/prefs{
 	pixel_x = 8
 	},
 /obj/item/flashlight/lamp,
@@ -75734,9 +75737,9 @@
 /obj/item/clipboard,
 /obj/item/paper/monitorkey,
 /obj/structure/disposalpipe/segment,
-/obj/item/computer_disk/engineering,
-/obj/item/computer_disk/engineering,
-/obj/item/computer_disk/engineering,
+/obj/item/disk/computer/engineering,
+/obj/item/disk/computer/engineering,
+/obj/item/disk/computer/engineering,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 4
@@ -76104,8 +76107,8 @@
 	dir = 8
 	},
 /obj/item/trash/can{
-	pixel_x = 9;
-	pixel_y = 7
+	pixel_x = 6;
+	pixel_y = 11
 	},
 /turf/open/floor/iron/dark,
 /area/station/commons/fitness/recreation/entertainment)
@@ -81558,15 +81561,15 @@
 	pixel_y = 6;
 	pixel_x = 6
 	},
-/obj/item/computer_disk/quartermaster{
+/obj/item/disk/computer/quartermaster{
 	pixel_y = 6;
 	pixel_x = -6
 	},
-/obj/item/computer_disk/quartermaster{
+/obj/item/disk/computer/quartermaster{
 	pixel_x = -6;
 	pixel_y = 9
 	},
-/obj/item/computer_disk/quartermaster{
+/obj/item/disk/computer/quartermaster{
 	pixel_x = -6;
 	pixel_y = 12
 	},
