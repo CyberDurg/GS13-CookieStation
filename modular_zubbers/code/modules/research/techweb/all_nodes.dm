@@ -69,6 +69,19 @@
 	design_ids += list(
 		"limbdesign_hemophage",
 		"limbdesign_tajaran",
+		"limbdesign_teshari",
+	)
+
+/datum/techweb_node/cyber/cyber_implants/New()
+	. = ..()
+	design_ids += list(
+		"wound_scanner_internal"
+	)
+
+/datum/techweb_node/medbay_equip/New()
+	. = ..()
+	design_ids += list(
+		"defibrillator",
 	)
 
 //ENGINEERING
@@ -167,6 +180,8 @@
 	design_ids += "m45_mag"
 	design_ids += "solgrenade_mag"
 	design_ids += "ntusp_conversion"
+	design_ids += "ntusp_powerpack"
+	design_ids += "ntmp5_powerpack"
 	. = ..()
 
 /datum/techweb_node/exotic_ammo/New()

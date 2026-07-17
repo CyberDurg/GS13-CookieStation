@@ -66,6 +66,10 @@
 #define TRAIT_HELPLESS_STUCKAGE			"stuckage_helpless"
 #define TRAIT_HELPLESS_THICK_NECK		"thick_neck"
 #define TRAIT_HELPLESS_WEAK_LUNGS		"weak_lungs"
+#define TRAIT_HELPLESS_WADDLING         "waddling_helpless"
+#define TRAIT_WADDLE					"waddle"
+#define TRAIT_HELPLESS_LISP				"lisp_helpless"
+#define TRAIT_LISP						"lisp"
 
 // GS13 positive quirks
 #define TRAIT_BLOB_BED					"blob_bed"
@@ -92,3 +96,9 @@
 #define COSGLOW_THICKNESS_MIN 1
 #define COSGLOW_THICKNESS_MAX 3
 #define COSGLOW_THICKNESS_DEFAULT 2
+
+// fatty quirks
+#define FAT_AFFINITY_COOLDOWN				"fatty_examine"
+#define FAT_AFFINITY_ACTIVATION_COOLDOWN	"same_fatty_cooldown"
+#define PLEASANTLY_SOFT_COOLDOWN			"pleasantly_soft_examine"
+#define FAT_AVERSION_COOLDOWN				"fat_aversion"
